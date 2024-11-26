@@ -11,4 +11,28 @@
 }
 .home-btn {
   font-size: large;
+  background-color: aquamarine;
+  display: flex;
+  width: 300px; 
+  height: 50px;
+  border: #333;
+  margin: 5px auto;
+}
+.footer{
+  text-align: center;
+  margin-top: 50px;
+  color: #333;
+  padding: 20px;
+  background-color: #218171;
+  font: 1em sans-serif;
+  
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+  font: 1em sans-serif;
 }

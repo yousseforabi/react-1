@@ -10,6 +10,9 @@ function home(options) {
     const updatePrice = () =>{
      setPrice(carPrice +1);
     }
+    const resetPrice = () => {
+        setPrice(0);
+    }
 
     return (<>
     <Car model1="Mercedes" price1="2300" 
@@ -21,11 +24,14 @@ function home(options) {
   
 
     <div>
-        <button className='home-btn' onClick={updateName}></button>
-      <h2>CAR NAME</h2>
+        <button className='home-btn' onClick={updateName}> CAR CHECK</button>
+      <h2>CAR NAME : {carName}</h2>
       <button className='home-btn' onClick={updatePrice}>
-        <h2>CAR PRICE</h2>
+        <h2>CAR PRICE : {carPrice}</h2>
       </button>
+      <button className="home-btn" onClick={resetPrice}>
+          <h2>RESET PRICE</h2>
+        </button>
     </div>
     </>
    )
