@@ -1,14 +1,21 @@
 import Car from './components/Car.jsx';
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import Home from '../pages/Home.jsx';
+import Home from '../pages/About.jsx';
+
 function App() {
-  return (
-   <>
-   <Car model1="Mercedes" price1="2300" 
-   model2="FERARRI" price2="2300"
-    model3="HINDA" price3="2300" 
-    model4="FORD" price4="2300"
-    model5="KIA" price5="2300"/>
-  </>)
+  return (  
+  <> 
+  <BrowserRouter>
+  <Routes>
+    <Route path="/" element={<Home/>}/>
+    <Route path="/about" element={<About/>}/>
+    
+  </Routes>
+  </BrowserRouter>
+  </>),
+ 
   
 }
 
-export default App
+export default App;
