@@ -1,4 +1,4 @@
-import Car from './components/Car.jsx';
+import Car from '../components/Car.jsx';
 function home(options) {
     return <>
     <Car model1="Mercedes" price1="2300" 
