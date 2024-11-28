@@ -9,8 +9,8 @@ function SelectColor() {
 
   return (
     <div>
-      <input type="color" value={color} onChange={handleColorChange} />
-      <h2 style={{ color: color }}>Hello World!</h2>
+      <input  className="box-color"   type="color" value={color} onChange={handleColorChange} />
+      <h2 style={{ color: color }}>CAR CLOLR</h2>
     </div>
   );
 }
