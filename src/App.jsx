@@ -6,7 +6,7 @@ import React from 'react';
 import NavBar from './NavBar.jsx';
 import Footer from './Footer.jsx';
 import SelectColor from './pages/SelectColor.jsx';
-import WriteFb from './pages/WriteFb.jsx';
+import WriteFb from './pages/TodoList.jsx';
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/selectColor" element={<SelectColor />} />
+        <Route path="/writeFb" element={<WriteFb />} />
       </Routes>
       <Footer />
     </BrowserRouter>
