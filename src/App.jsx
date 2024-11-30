@@ -6,6 +6,7 @@ import React from 'react';
 import NavBar from './NavBar.jsx';
 import Footer from './Footer.jsx';
 import SelectColor from './pages/SelectColor.jsx';
+import WriteFb from './pages/WriteFb.jsx';
 
 function App() {
   return (
