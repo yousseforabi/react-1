@@ -15,7 +15,7 @@ function NavBar (){
                     <li>
                 < Link to="/selectColor">Slect Car color</Link>
                     </li>
-                    <li><Link to="/writeFb"> Write your Feedback</Link></li>
+                    <li><Link to="/todoList"> Write your List</Link></li>
             </ul>
         </div>
     )
